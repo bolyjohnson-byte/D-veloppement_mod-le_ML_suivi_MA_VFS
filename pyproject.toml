@@ -1,0 +1,23 @@
+[project]
+name = "d-veloppement-mod-le-ml-suivi-ma-vfs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bolyjohnson-byte", email = "bolyjohnson@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "notebook>=7.6.2",
+    "numpy>=2.5.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+d-veloppement-mod-le-ml-suivi-ma-vfs = "d_veloppement_mod_le_ml_suivi_ma_vfs:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
